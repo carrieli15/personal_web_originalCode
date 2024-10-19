@@ -1,0 +1,240 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Jiechen Li"
+
+  # animated text loop
+  occupations:
+    - 'Data Scientist'
+    - 'Product Analyst'
+    - 'Dog & Cat Lover'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/background.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/IMG_8117.JPG'
+  title: 'ABOUT ME'
+  content: "I bring **6+ years of experience as a product analyst in EdTech** to my current pursuit of a second master’s degree in data science at Duke University. My expertise in user analysis, product design, and balancing data privacy with business needs, combined with my growing technical skills, has fueled my interest in **usable security, privacy, and Human-Computer Interaction (HCI)**. 
+
+
+           Driven by the privacy and security challenges I encountered in my previous work, I shifted my focus from language education to data science to explore how privacy concerns affect the adoption of new technologies. I am **actively seeking Ph.D. opportunities for Fall 2025** to research how human factors shape security practices and develop solutions that build trust and make technology safer and more accessible."
+  params.social: 
+    icon: "fab fa-github"
+    link: "https://github.com/carrieli15"
+
+  button:
+    enable: true
+    label: 'MY RESUME'
+    link: 'resume/CV_PhD_JiechenLi.pdf'
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: 'EDUCATION'
+  experience_list:
+    - name: Duke University
+      location: NC
+      company: MS Interdisciplinary Data Science
+      duration: '2023-Present'
+      content: AI Security and Privacy, Principles of Machine Learning, Natural Language Processing (NLP), Calculus and Probability, Statistical Modeling, Data Engineering, Python Data Science
+
+    - name: University of Rochester                                
+      company: MS Teaching English to Speakers of Other Languages
+      duration: '2014-2016'
+      content: Master’s Research Methods (Quantitative & Qualitative)
+
+    - name: Inner Mongolia Agricultural University (China)                  
+      company: BA English
+      duration: '2009-2013'
+      content: Advanced Mathematics, Linear Algebra, Basics of Computer Engineering, Visual Basic Programming, The C Programming Language
+
+# ############################### Skill #################################
+# skill:
+#   enable: true
+#   title: 'SOME SKILLS'
+#   showpercent: false
+#   skill_list:
+#     - name: 'Data Analysis'
+#       percentage: '90%'
+
+#     - name: 'Python'
+#       percentage: '85%'
+
+#     - name: 'Product Development'
+#       percentage: '95%'
+
+#     - name: 'Leadership'
+#       percentage: '95%'
+
+#     - name: 'Team Work'
+#       percentage: '100%'
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'COFFEE PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '2'
+
+    - name: 'PRODUCTS BUILT'
+      image: 'images/icons/web-development.png'
+      count: '28'
+
+    - name: 'BUG FOR TODAY'
+      image: 'images/icons/happy.png'
+      count: '0'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'PROJECTS'
+  portfolio_list:
+    - name: AI Language Learning Product “TalkwithMe”
+      image: 'images/portfolio/cover_page.png'
+      url: https://github.com/TalkWithMe-Duke-Hackathon/Team49_Rock_the_Hackathon
+      description: "2023 Duke x OpenAI x Microsoft Hackathon Winner (Beginner Track). TalkwithMe applies Azure Text-to-Speech, Pronunciation Assessment API, creating user with customized immersive language learning experience, via AI voice generation, recognition, and study methods recommendation."
+    
+    - name: 2024 North Carolina Education Datathon
+      image: 'images/portfolio/datathon.png'
+      url: https://www.canva.com/design/DAF8PUpLEOc/gV0RMTtSkZA6WV2MP5hUpg/edit
+      description: Identifying the gap between K-12 technology talent and recrtitment pipeline.
+
+    - name: AI Companion Robot BunnyBot  
+      image: 'images/portfolio/imagine_cup.png'
+      url: https://techcommunity.microsoft.com/t5/student-developer-blog/announcing-the-2024-imagine-cup-semifinalists/ba-p/4066101
+      description: "Microsoft Imagine Cup, a global technology competition that celebrates the perseverance, grit and brilliance of students who are building startups with AI at their core. My AI companion robot BunnyBot is selected to be one of the Top 20 semifinal-list worldwide."
+
+    # - name: Just A Design
+    #   image: 'images/portfolio/design.png'
+    #   url: https://gohugo.io
+    #   description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+
+blog:
+  enable: true
+  title: 'BLOG'
+  blog_list:
+    - name: Deploying Flask Apps to Azure Web App via Docker Hub
+      image: 'images/portfolio/teaser.png'
+      url: https://techcommunity.microsoft.com/t5/educator-developer-blog/deploying-flask-apps-to-azure-web-app-via-docker-hub/ba-p/4015410
+      description: "This tutorial will explore a step-by-step approach to deploying a Python-based Flask web application to Azure Web App using Docker Hub. I will guide you through each phase of the project: from the initial development of the recommendation logic in Python to creating the Flask framework, packaging our application into a Docker image, and finally deploying it to Azure."
+    
+    - name: "Python & Azure Cosmos DB Integration: Create an E-Commerce DB Management Tool"
+      image: 'images/portfolio/command_line_AzuureDB.png'
+      url: https://techcommunity.microsoft.com/t5/educator-developer-blog/python-amp-azure-cosmos-db-integration-create-an-e-commerce-db/ba-p/4029399
+      description: Creating an effective Python command-line tool to manage an e-commerce product catalog with Azure Cosmos DB can streamline operations significantly. This tutorial will guide you through creating a Python command-line tool that interfaces with Azure Cosmos DB to manage an e-commerce product catalog. The tool simplifies CRUD operations, making it accessible for non-technical staff to maintain up-to-date product listings.
+
+    - name: "Harnessing Retail Data with Azure: Integrating Blob Storage and Databricks for Advanced Analytics"
+      image: 'images/portfolio/Azure_Storage_Feature.png'
+      url: https://techcommunity.microsoft.com/t5/educator-developer-blog/harnessing-retail-data-with-azure-integrating-blob-storage-and/ba-p/4062938
+      description: The following narrative is more than a tutorial; it's a roadmap for such a retail giant. By embracing Azure Blob Storage and Azure Databricks, the company is about to embark on a transformative journey that will not only store its colossal datasets but also breathe life into them, extracting trends, forecasts, and segments that are crucial for thriving in a competitive market.
+
+
+work_experience:
+  enable: true
+  title: 'WORK EXPERENCE'
+  experience_list:
+    - name: Analyst    
+      company: Yongxiang Renewable Energy Technology Co., Ltd. (China)   
+      duration: '2021/09 - 2023/05'
+      content: "•	Leveraged Python to create and manage sales ROI dashboards, incorporating key statistics and trending analysis, which led to a 3.3% reduction in customer issues and a 2.8% increase in GMV growth.
+     
+
+               •	Coordinated and collaborated with other departments, such as engineering and marketing, to lead product training for the sales team."
+
+
+    - name: Product Analyst                                
+      company: Happy Seed Education Technology Co., Ltd. (China)      
+      duration: '2021/04 - 2021/08'
+      content: "•	Successfully implemented the new Shared Services Platform (0-1-N), resulting in a 60% increase in collaboration efficiency. 
+
+
+                •	Identified product problems using data analyzing and collaborated with the Scrum product manager and engineers to complete the iteration while supporting backend engineers in creating and managing the API interface document description."
+
+
+    - name: Product Analyst                   
+      company: Haoxue Education Technology Co., Ltd. (China)        
+      duration: '2020/07 - 2021/03'
+      content: "•	Successfully lead a new WeChat Mini Program learning product (0-1-N), resulting in a 100% increase in profitability, and monitored the acquisition, retention rate, and conversion rate which grew 26% month-on-month. 
+
+
+                •	Completed in-depth analyses for all Chinese online education brands and participated in a SEO-specialized market promotion strategy which resulted in an over 85% repurchase rate for the sales team."
+
+    - name: Startup Founder                   
+      company: Nanjing Unilingo Language Consultation LLC (China)
+      duration: '2019/07 - 2020/06'
+      content: "•	Spearheaded new customer channel developments and negotiations and had exclusive translation collaboration with the Jiangsu Grand Theatre. 
+
+
+                •	Established and managed a 4-person team to cover product frontend, backend, and testing activities to meet the estimated goal, and broke even for 6 months prior to the pandemic."
+
+    - name: Education Business Analyst                   
+      company: Nanjing Unilingo Language Consultation LLC (China)
+      duration: '2017/06 - 2019/06'
+      content: "•	Successfully collaborated with a 7-person team to release the product with 50,000+ registered users.
+                
+
+                •	Collected, compiled, and translated product data into easily digestible reports, and coordinated with the team manager to wrangle and analyze the data through SQL and Python.
+                
+
+                •	Assisted in developing product metrics to help increase user satisfaction and productivity metrics over target."
+    
+    - name: Chinese Instructor                    
+      company: Frontiers Academy (Costa Mesa, CA)                                  
+      duration: '2016/10 - 2017/01'
+      content: • Supervised the progress of 2–6-year-old students with their spoken Chinese.
+    
+    - name: ESL Instructor                                                 
+      company: Tonsheen Fly Academy (Irvine, CA)                                  
+      duration: '2016/08 - 2016/10'
+      content: •	Designed and implemented the Adult Survival English program, combining various English teaching methods and techniques, to assist new ESL students, resulting in a 100% retention rate and a 20% increase in test scores.
+
+research_experience:
+  enable: true
+  title: 'RESEARCH'
+  experience_list:
+    - name: "Climate TRACE: Estimating Global Greenhouse Gas Emissions from Buildings    "
+      company: Master’s Capstone Project, Duke University   
+      duration: '2024/09 - Present'
+      content: "• Creating machine learning features from geospatial data to estimate building energy use and predict global greenhouse gas emissions.
+
+
+                • Assessing model accuracy against ground truth data and provided uncertainty estimates to support decision-making."
+
+ 
+    - name: "InSPIRe Lab: Privacy and Security of AI-enabled Social Chatbots    "
+      company: Privacy and Security of HCI, Duke University   
+      duration: '2024/05 - Present'
+      content: "• Conducted comprehensive literature review, obtained IRB approval, applied for qualitative research funding, and developed a qualitative codebook for analyzing privacy and security in AI-enabled social chatbots.
+
+
+                • Performed quantitative power analysis and am currently applying Cumulative Link Mixed Models (CLMM) to analyze data collected via Qualtrics, preparing findings for publication."
+
+  
+    - name: Educational Technology Enabling Non-native English Teachers to Succeed in ESL Contexts    
+      company: Master’s Thesis, University of Rochester   
+      duration: '2016/01 - 2016/06'
+      content: "• Synthesized the existing literatures to investigate the potential effects of educational technology on non-native English teachers and their teaching in ESL contexts.
+
+
+                • Found that educational technology provides realistic pathways to support non-native English teachers in this context."
+
+ 
+    - name: "What is the Role of the University of Meeting International Students’ Need: A Mixed Method Research Study of the University of Rochester    "
+      company: Quantitative & Qualitative Research, University of Rochester  
+      duration: '2015/01 - 2015/03'
+      content: "• Critiqued quantitative and qualitative research to acquire the appropriate rationale to conduct my research.
+
+
+                • Conducted semi-structured interviews within Warner Education Graduate School, analyzed interview transcripts, and authored an essay on findings related to international students' needs."  
+  
+  
+    - name: Analysis of Transcendentalism in Walden    
+      company: Graduation Design, Inner Mongolia Agricultural University (China)  
+      duration: '2013/03 - 2013/06'
+      content: "• Analyzed the book, *Walden*, through the lens of transcendentalism and illustrated the author’s call for returning to nature and simplicity."         
