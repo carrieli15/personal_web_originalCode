@@ -18,10 +18,12 @@ about:
   enable: true
   image: 'images/IMG_8117.JPG'
   title: 'ABOUT ME'
-  content: "I bring **6+ years of experience as a product analyst in EdTech** to my current pursuit of a second master’s degree in data science at Duke University. My expertise in user analysis, product design, and balancing data privacy with business needs, combined with my growing technical skills, has fueled my interest in **usable security, privacy, and Human-Computer Interaction (HCI)**. 
+
+  content: "I bring my first master's degree in English education and **6+ years of experience as a product analyst in EdTech** to my second master’s degree in data science at Duke University. My expertise in curriculum design, user analysis, product design, and balancing data privacy with business needs, combined with my growing technical skills, has fueled my interest in **Human-Computer Interaction (HCI) in EdTech and usable security**. 
 
 
-           Driven by the privacy and security challenges I encountered in my previous work, I shifted my focus from language education to data science to explore how privacy concerns affect the adoption of new technologies. I am **actively seeking Ph.D. opportunities for Fall 2025** to research how human factors shape security practices and develop solutions that build trust and make technology safer and more accessible."
+           Driven by the privacy and security challenges I encountered in my previous work, and by the difficulties I faced while transitioning from language education to data science, I hope to combine my work and learning experiences to research usable security and develop more accessible and user-friendly tools for learning advanced technologies. I am **actively seeking Ph.D. opportunities for Spring & Fall 2026**."
+
   params.social: 
     icon: "fab fa-github"
     link: "https://github.com/carrieli15"
@@ -40,8 +42,9 @@ experience:
     - name: Duke University
       location: NC
       company: MS Interdisciplinary Data Science
-      duration: '2023-Present'
-      content: AI Security and Privacy, Principles of Machine Learning, Natural Language Processing (NLP), Calculus and Probability, Statistical Modeling, Data Engineering, Python Data Science
+
+      duration: '2023-2025'
+      content: Database System, AI Security and Privacy, Principles of Machine Learning, Natural Language Processing (NLP), Calculus and Probability, Statistical Modeling, Data Engineering
 
     - name: University of Rochester                                
       company: MS Teaching English to Speakers of Other Languages
@@ -83,7 +86,7 @@ funfacts:
 
     - name: 'PRODUCTS BUILT'
       image: 'images/icons/web-development.png'
-      count: '28'
+      count: '31'
 
     - name: 'BUG FOR TODAY'
       image: 'images/icons/happy.png'
@@ -200,20 +203,21 @@ research_experience:
   experience_list:
     - name: "Climate TRACE: Estimating Global Greenhouse Gas Emissions from Buildings    "
       company: Master’s Capstone Project, Duke University   
-      duration: '2024/09 - Present'
-      content: "• Creating machine learning features from geospatial data to estimate building energy use and predict global greenhouse gas emissions.
+      duration: '2024/09 - 2025/05'
+      content: "• Created a scalable machine learning model predicting buildings’ Energy Use Intensity (EUI) using limited satellite, climatic, and socioeconomic data. 
 
 
-                • Assessing model accuracy against ground truth data and provided uncertainty estimates to support decision-making."
+                • Improved model performance by 54% over baseline, providing a valuable tool for data-driven emissions estimation and supporting more effective emission reduction strategies."
+
 
  
     - name: "InSPIRe Lab: Privacy and Security of AI-enabled Social Chatbots    "
       company: Privacy and Security of HCI, Duke University   
-      duration: '2024/05 - Present'
-      content: "• Conducted comprehensive literature review, obtained IRB approval, applied for qualitative research funding, and developed a qualitative codebook for analyzing privacy and security in AI-enabled social chatbots.
+      duration: '2024/05 - 2024/12'
+      content: "• Conducted comprehensive literature review, obtained IRB approval, and developed a qualitative codebook for analyzing privacy and security in AI-enabled social chatbots.
 
 
-                • Performed quantitative power analysis and am currently applying Cumulative Link Mixed Models (CLMM) to analyze data collected via Qualtrics, preparing findings for publication."
+                • Performed quantitative power analysis and Cumulative Link Mixed Models (CLMM) to analyze data collected via Qualtrics."
 
   
     - name: Educational Technology Enabling Non-native English Teachers to Succeed in ESL Contexts    
